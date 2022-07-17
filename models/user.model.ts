@@ -8,7 +8,8 @@ const userModel = new userMongoose.Schema ({
     required : true
   },
   fullName : {
-    type : String
+    type : String,
+    required : true
   },
   email : {
     type : String,
@@ -38,69 +39,6 @@ const userModel = new userMongoose.Schema ({
     type : Number,
     required : true,
     default : 0
-  },
-  religion : {
-    type : String,
-  },
-  subReligion : {
-    type : String
-  },
-  degreeLevel : {
-    type : String,
-  },
-  degreeType : {
-    type : String,
-  },
-  institute : {
-    type : String,
-  },
-  professionType : {
-    type : String,
-  },
-  jobTitle : {
-    type : String
-  },
-  businessDetails : {
-    type : String
-  },
-  income : {
-    type : String,
-  },
-  age : {
-    type : String,
-  },
-  status : {
-    type : String,
-  },
-  noOfChildren : {
-    type : Number,
-  },
-  complexion : {
-    type : String,
-  },
-  weight : {
-    type : String,
-  },
-  feet : {
-    type : String,
-  },
-  inch : {
-    type : String,
-  },
-  country : {
-    type : String,
-  },
-  city : {
-    type : String,
-  },
-  motherLanguage : {
-    type : String,
-  },
-  caste : {
-    type : String,
-  },
-  contactNo : {
-    type : String,
   }
 })
 
